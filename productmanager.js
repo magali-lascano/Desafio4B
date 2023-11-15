@@ -47,4 +47,4 @@ export default class ProductManager {
 
 }
 
-const manager0 = new ProductManager('./products.json')
+const manager0 = new ProductManager('./product.json')
