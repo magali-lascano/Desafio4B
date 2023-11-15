@@ -47,6 +47,3 @@ socketServer.on("Coneccion", (socket) => {
 app.listen(PORT, () => {
     console.log(`Server activo en puerto ${PORT}`);
 });
-const httpServer = app.listen(PORT, () => {
-    console.log(`Escuchando puerto ${PORT}`);
-});
